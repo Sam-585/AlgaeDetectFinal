@@ -25,8 +25,8 @@ from image_processor import ImageProcessor
 from risk_assessment import RiskAssessment
 from report_generator import ReportGenerator
 from ml_predictor import AlgaeBloomPredictor
-from data.uttarakhand_waterbodies import UTTARAKHAND_WATERBODIES
-from assets.mitigation_strategies import MITIGATION_STRATEGIES
+from uttarakhand_waterbodies import UTTARAKHAND_WATERBODIES
+from mitigation_strategies import MITIGATION_STRATEGIES
 
 # Page configuration
 st.set_page_config(

@@ -1102,7 +1102,7 @@ def find_nearest_waterbody(lat, lng):
 
 def show_feedback_form():
     """Display user feedback and contribution form"""
-    from utils.database_helper import DatabaseHelper
+    from database_helper import DatabaseHelper
     
     st.markdown("""
     Help us improve algae monitoring by sharing your observations, case studies, or feedback!

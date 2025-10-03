@@ -11,5 +11,7 @@ geemap
 matplotlib
 shapely
 requests
+cv2
+
 
 

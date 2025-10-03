@@ -6,3 +6,10 @@ numpy
 plotly
 geopandas
 Pillow
+earthengine-api
+geemap
+matplotlib
+shapely
+requests
+
+

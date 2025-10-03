@@ -1266,7 +1266,7 @@ def show_feedback_form():
 
 def show_alert_subscription():
     """Display alert subscription form"""
-    from utils.database_helper import DatabaseHelper
+    from database_helper import DatabaseHelper
     
     st.markdown("""
     Get notified when algae bloom risk levels exceed your threshold. 

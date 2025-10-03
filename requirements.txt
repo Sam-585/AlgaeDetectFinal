@@ -9,9 +9,11 @@ Pillow
 earthengine-api
 geemap
 matplotlib
-opencv-python
+opencv-python-headless
 shapely
 requests
+
+
 
 
 

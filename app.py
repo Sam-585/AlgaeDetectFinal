@@ -19,12 +19,12 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Import custom utilities
-from utils.gee_helper import GEEHelper
-from utils.spectral_indices import SpectralIndicesCalculator
-from utils.image_processor import ImageProcessor
-from utils.risk_assessment import RiskAssessment
-from utils.report_generator import ReportGenerator
-from utils.ml_predictor import AlgaeBloomPredictor
+from gee_helper import GEEHelper
+from spectral_indices import SpectralIndicesCalculator
+from image_processor import ImageProcessor
+from risk_assessment import RiskAssessment
+from report_generator import ReportGenerator
+from ml_predictor import AlgaeBloomPredictor
 from data.uttarakhand_waterbodies import UTTARAKHAND_WATERBODIES
 from assets.mitigation_strategies import MITIGATION_STRATEGIES
 

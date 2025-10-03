@@ -12,6 +12,11 @@ import io
 import base64
 from PIL import Image
 import os
+import sys, os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+
+
 
 # Import custom utilities
 from utils.gee_helper import GEEHelper

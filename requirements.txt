@@ -12,6 +12,9 @@ matplotlib
 opencv-python-headless
 shapely
 requests
+psycopg2-binary
+
+
 
 
 
